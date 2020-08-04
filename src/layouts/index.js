@@ -13,9 +13,13 @@ const Layout = ({ children, site }) => (
         <div className="Wrap" >
           <div className="Header__body">
             <h1 className="Header__title">
+  <button class="banner">
               <Link data-text={site.siteMetadata.siteName} to="/">
                 {site.siteMetadata.siteName}
               </Link>
+  <div class="banner__horizontal"></div>
+    <div class="banner__vertical"></div>
+</button>
             </h1>
             <div className="Header__summary snipcart-summary snipcart-checkout">
               <div className="Header__summary__title">
